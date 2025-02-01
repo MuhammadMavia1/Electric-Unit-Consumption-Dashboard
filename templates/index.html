@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Electric Unit Consumption Dashboard</title>
+    <script src="https://cdn.plot.ly/plotly-2.25.2.min.js"></script>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Mavia Electric Unit Consumption Dashboard</h1>
+        <div id="controls">
+            <label for="start_date">Start Date:</label>
+            <input type="date" id="start_date" name="start_date" placeholder="YYYY-MM-DD">
+            <label for="end_date">End Date:</label>
+            <input type="date" id="end_date" name="end_date" placeholder="YYYY-MM-DD">
+            <label for="unit_cost_threshold">Unit Cost Threshold:</label>
+            <input type="number" id="unit_cost_threshold" name="unit_cost_threshold" placeholder="e.g., 50">
+            <button onclick="fetchData()">Fetch Data</button>
+            <center>
+				<button onclick="downloadData()">Download Data</button>
+				<button id="darkModeToggle" onclick="toggleDarkMode()">Toggle Dark Mode</button>
+			</center>
+        </div>
+        <div id="loading" style="display: none;">Loading...</div>
+        <h2>Output:</h2>
+        <div id="chart" style="width: 100%; height: 400px;"></div>
+        <div id="chart2" style="width: 100%; height: 400px;"></div>
+        <div id="summary">
+            <h3>Summary</h3>
+            <p>Total Units: <span id="totalUnits"></span></p>
+            <p>Total Cost: <span id="totalCost"></span></p>
+            <p>Average Cost per Unit: <span id="averageCost"></span></p>
+        </div>
+    </div>
+	 <footer class="footer">
+        <p>© 2024 Hamdard University. Developed by Muhammad Mavia Abrar - 3309-2023</p>
+    </footer>
+    <script src="/static/scripts.js"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 20px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+#controls {
+    margin-bottom: 20px;
+}
+
+label {
+    margin-right: 10px;
+}
+
+input {
+    margin-right: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#chart, #chart2 {
+    margin-top: 20px;
+}
+
+#summary {
+    margin-top: 20px;
+    padding: 10px;
+    background: #f8f9fa;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.footer {
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    background-color: #f8f9fa;
+    font-size: 14px;
+    color: #666;
+    border-top: 1px solid #ddd;
+}
+
+.dark-mode {
+    background-color: #121212;
+    color: #f4f4f4;
+}
+
+.dark-mode .container {
+    background: #1e1e1e;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+.dark-mode input,
+.dark-mode button {
+    background: #333;
+    color: #fff;
+    border: 1px solid #444;
+}
+
+.dark-mode button:hover {
+    background: #555;
+}
+
+.dark-mode #summary {
+    background: #1e1e1e;
+    color: #f4f4f4;
+    border-color: #444;
+}
+
+.dark-mode footer {
+    background: #1e1e1e;
+    color: #f4f4f4;
+    border-color: #444;;
+}
+
+@media (max-width: 768px) {
+    .container {
+        width: 90%;
+        padding: 10px;
+    }
+
+    #controls label, 
+    #controls input, 
+    #controls button {
+        display: block;
+        margin-bottom: 10px;
+        width: 100%;
+    }
+}

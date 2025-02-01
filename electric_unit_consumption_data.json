@@ -1,0 +1,93 @@
+[
+  {
+    "per_unit": 0.66,
+    "timestamp": "2025-01-05 01:30:43",
+    "total_unit_cost": 226.11,
+    "total_units": 13.72,
+    "unit_cost": 10.88
+  },
+  {
+    "per_unit": 0.61,
+    "timestamp": "2025-01-05 01:34:33",
+    "total_unit_cost": 455.51,
+    "total_units": 27.64,
+    "unit_cost": 10.05
+  },
+  {
+    "per_unit": 0.65,
+    "timestamp": "2025-01-05 01:41:24",
+    "total_unit_cost": 778.02,
+    "total_units": 47.21,
+    "unit_cost": 10.71
+  },
+  {
+    "per_unit": 0.66,
+    "timestamp": "2025-01-05 01:47:44",
+    "total_unit_cost": 1087.52,
+    "total_units": 65.99,
+    "unit_cost": 10.88
+  },
+  {
+    "per_unit": 0.62,
+    "timestamp": "2025-01-05 01:52:44",
+    "total_unit_cost": 1349.55,
+    "total_units": 81.89,
+    "unit_cost": 10.22
+  },
+  {
+    "per_unit": 0.65,
+    "timestamp": "2025-01-05 01:52:54",
+    "total_unit_cost": 1360.26,
+    "total_units": 82.54,
+    "unit_cost": 10.71
+  },
+  {
+    "per_unit": 0.62,
+    "timestamp": "2025-01-05 01:59:35",
+    "total_unit_cost": 1643.06,
+    "total_units": 99.7,
+    "unit_cost": 10.22
+  },
+  {
+    "per_unit": 0.45,
+    "timestamp": "2025-01-05 02:01:15",
+    "total_unit_cost": 2410.9,
+    "total_units": 105.05,
+    "unit_cost": 10.33
+  },
+  {
+    "per_unit": 0.45,
+    "timestamp": "2025-01-05 02:03:55",
+    "total_unit_cost": 2586.01,
+    "total_units": 112.68,
+    "unit_cost": 10.33
+  },
+  {
+    "per_unit": 0.46,
+    "timestamp": "2025-01-05 02:04:05",
+    "total_unit_cost": 2596.56,
+    "total_units": 113.14,
+    "unit_cost": 10.56
+  },
+  {
+    "per_unit": 0.44,
+    "timestamp": "2025-01-05 02:12:25",
+    "total_unit_cost": 3207.26,
+    "total_units": 139.75,
+    "unit_cost": 10.1
+  },
+  {
+    "per_unit": 0.46,
+    "timestamp": "2025-01-05 02:12:55",
+    "total_unit_cost": 3233.66,
+    "total_units": 140.9,
+    "unit_cost": 10.56
+  },
+  {
+    "per_unit": 0.31,
+    "timestamp": "2025-01-05 02:48:37",
+    "total_unit_cost": 8404.32,
+    "total_units": 245.31,
+    "unit_cost": 10.62
+  }
+]
